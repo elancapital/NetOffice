@@ -45,9 +45,9 @@
       },
       "stdole": {
         "type": "Direct",
-        "requested": "[7.0.3300, )",
-        "resolved": "7.0.3300",
-        "contentHash": "p9WhjNp/gM2z80u+xNA1XXFek57iybUUJaDnQooKfdct3vGIpmDzLdL7Rq4ZmFzZc3LN3SFs5bRIE7j/+gLn5Q=="
+        "requested": "[16.7.30328.74, )",
+        "resolved": "16.7.30328.74",
+        "contentHash": "DzbBGgKpSKSKqLmJHjDEzrcUuy7rC6qgjyMioadNyJeWm7QbnbVaIgnWjEoXbDlHuG/HLlomtXcBxECs8uFGqQ=="
       },
       "Microsoft.Build.Tasks.Git": {
         "type": "Transitive",

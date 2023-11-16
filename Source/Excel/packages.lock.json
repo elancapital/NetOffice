@@ -68,8 +68,8 @@
       },
       "stdole": {
         "type": "Transitive",
-        "resolved": "7.0.3300",
-        "contentHash": "p9WhjNp/gM2z80u+xNA1XXFek57iybUUJaDnQooKfdct3vGIpmDzLdL7Rq4ZmFzZc3LN3SFs5bRIE7j/+gLn5Q=="
+        "resolved": "16.7.30328.74",
+        "contentHash": "DzbBGgKpSKSKqLmJHjDEzrcUuy7rC6qgjyMioadNyJeWm7QbnbVaIgnWjEoXbDlHuG/HLlomtXcBxECs8uFGqQ=="
       },
       "NetOfficeFw.Core": {
         "type": "Project"
@@ -78,7 +78,7 @@
         "type": "Project",
         "dependencies": {
           "NetOfficeFw.Core": "[2.0.0, )",
-          "stdole": "[7.0.3300, )"
+          "stdole": "[16.7.30328.74, )"
         }
       },
       "NetOfficeFw.VBIDE": {
