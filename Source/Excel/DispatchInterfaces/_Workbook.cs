@@ -2340,17 +2340,31 @@ namespace NetOffice.ExcelApi
 			{
 				Factory.ExecuteVariantPropertySet(this, "DefaultTimelineStyle", value);
 			}
-		}
+        }
 
-		#endregion
+        /// <summary>
+        /// SupportByVersion Excel 16
+        /// Get
+        /// </summary>
+        /// <remarks> Docs: <see href="https://learn.microsoft.com/en-us/office/vba/api/Excel.Workbook.Queries"/> </remarks>
+        [SupportByVersion("Excel", 16)]
+        public NetOffice.ExcelApi.Queries Queries
+        {
+            get
+            {
+                return Factory.ExecuteKnownReferencePropertyGet<NetOffice.ExcelApi.Queries>(this, "Queries", NetOffice.ExcelApi.Queries.LateBindingApiWrapperType);
+            }
+        }
 
-		#region Methods
+        #endregion
 
-		/// <summary>
-		/// SupportByVersion Excel 9, 10, 11, 12, 14, 15, 16
-		/// </summary>
-		/// <remarks> Docs: <see href="https://docs.microsoft.com/en-us/office/vba/api/Excel.Workbook.Activate(method)"/> </remarks>
-		[SupportByVersion("Excel", 9,10,11,12,14,15,16)]
+        #region Methods
+
+        /// <summary>
+        /// SupportByVersion Excel 9, 10, 11, 12, 14, 15, 16
+        /// </summary>
+        /// <remarks> Docs: <see href="https://docs.microsoft.com/en-us/office/vba/api/Excel.Workbook.Activate(method)"/> </remarks>
+        [SupportByVersion("Excel", 9,10,11,12,14,15,16)]
 		public void Activate()
 		{
 			 Factory.ExecuteMethod(this, "Activate");
